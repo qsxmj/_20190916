@@ -14,6 +14,7 @@
 <body>
 <c:forEach items="${pojos}" var="f">
     <h1>${f.sid} ${f.sname}</h1>
+    <hr>
 </c:forEach>
 </body>
 </html>
